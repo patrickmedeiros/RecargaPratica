@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::resource('clientes','ClienteController');
 Route::resource('home','HomeController');
+Route::resource('cadastro','CadastroController');
